@@ -1,0 +1,15 @@
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\bin\Debug\net6.0\LinkedList_DataStructure.exe
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\bin\Debug\net6.0\LinkedList_DataStructure.deps.json
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\bin\Debug\net6.0\LinkedList_DataStructure.runtimeconfig.json
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\bin\Debug\net6.0\LinkedList_DataStructure.dll
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\bin\Debug\net6.0\LinkedList_DataStructure.pdb
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\LinkedList_DataStructure.csproj.AssemblyReference.cache
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\LinkedList_DataStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\LinkedList_DataStructure.AssemblyInfoInputs.cache
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\LinkedList_DataStructure.AssemblyInfo.cs
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\LinkedList_DataStructure.csproj.CoreCompileInputs.cache
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\LinkedList_DataStructure.dll
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\refint\LinkedList_DataStructure.dll
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\LinkedList_DataStructure.pdb
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\LinkedList_DataStructure.genruntimeconfig.cache
+C:\Users\Ayub\source\repos\LinkedList_DataStructure\LinkedList_DataStructure\obj\Debug\net6.0\ref\LinkedList_DataStructure.dll
