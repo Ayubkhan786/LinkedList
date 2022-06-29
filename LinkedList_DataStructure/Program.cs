@@ -81,3 +81,17 @@ linklist5.Add(30);
 linklist5.Add(70);
 linklist5.Insert(2, 40);
 linklist5.Display();
+
+
+
+
+
+
+//To DeleteDataInBetween
+linkedlist linklist6 = new linkedlist();
+linklist6.Add(56);
+linklist6.Add(30);
+linklist6.Add(40);
+linklist6.Add(70);
+linklist6.DeleteBetween(40);
+linklist6.Display();
