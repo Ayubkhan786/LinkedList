@@ -47,6 +47,7 @@ namespace LinkedList
                 Console.WriteLine(front.data + " ");
                 front = front.next;
             }
+            Console.WriteLine("---------------------------------------------------------------");
         }
     }
 

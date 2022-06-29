@@ -8,7 +8,7 @@ namespace LinkedList
 {
     public class linkedlist
     {
-        internal Node head;
+        public Node head;
 
         public void Add(int data)
         {
@@ -42,22 +42,23 @@ namespace LinkedList
                 Console.WriteLine(temp.data + " ");
                 temp = temp.next;
             }
+            Console.WriteLine("-------------------------------------------------------------------");
         }
-       
+
         public Node Insert(int pos, int data)
         {
             Node newNode = new Node(data);
             Node temp = head;
             if (pos < 1)
             {
-                Console.WriteLine("invalid position");
+                Console.WriteLine("invalid ");
             }
             else if (pos == 1)
             {
                 Node node = newNode;
                 node.next = temp;
                 head = node;
-                Console.WriteLine("incert new node : " + node.data);
+                Console.WriteLine("The New data is : " + node.data + "Inserted");
             }
             else
             {
@@ -70,11 +71,32 @@ namespace LinkedList
                 Node node = newNode;
                 node.next = temp.next;
                 temp.next = node;
-                Console.WriteLine("inserted new node : " + node.data);
+                Console.WriteLine("The New data  " + node.data + "is Inserted");
             }
             return head;
 
         }
+        internal void Pop()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Empty , Nothing to delete");
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Popped Item is {0}", head.data);
+
+
+                Node temp = head;
+                head = head.next;
+                   temp = head.next;
+                head.next = temp;
+               
+            }
+           
+        }
+        
     }
 
 }
