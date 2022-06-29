@@ -64,10 +64,20 @@ linklist3.Display();
 
 
 
-
+//To FindNode
 linkedlist linklist4 = new linkedlist();
 linklist4.Add(56);
 linklist4.Add(30);
 linklist4.Add(70);
 linklist4.Display();
 linklist4.Find(30);
+
+
+
+//To InsertDataInBetween
+linkedlist linklist5 = new linkedlist();
+linklist5.Add(56);
+linklist5.Add(30);
+linklist5.Add(70);
+linklist5.Insert(2, 40);
+linklist5.Display();
