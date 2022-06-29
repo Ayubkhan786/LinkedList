@@ -15,6 +15,8 @@ linklist.Add(70);
 linklist.Display();
 
 
+
+
 Stack stack = new Stack();
 stack.StackPush(70);
 stack.StackPush(30);
@@ -28,6 +30,15 @@ queue.Enqueue(56);
 queue.Enqueue(30);
 queue.Enqueue(70);
 queue.DisplayQueue();
+
+
+
+linkedlist linklist1 = new linkedlist();
+linklist1.Add(56);
+linklist1.Add(70);
+linklist1.Display();
+linklist.Insert(2, 30);
+
 
 
 
