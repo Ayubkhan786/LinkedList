@@ -90,9 +90,34 @@ namespace LinkedList
 
                 Node temp = head;
                 head = head.next;
-                   temp = head.next;
+                temp = head.next;
                 //head=temp.next; 
             }
+        }
+        public Node DeleteLast()
+        {
+
+            Node node = head;
+
+            if (head == null)
+            {
+                Console.WriteLine("Empty");
+            }
+            else if (head.next == null)
+            {
+                Console.WriteLine("The Last Data is :{0} ", node.data + "and its Deleted");
+                head = null;
+            }
+            else
+            {
+                while (node.next.next != null)
+                {
+                    node = node.next;
+                }
+                Console.WriteLine("The Last Data is :{0} ", node.next.data + "and its Deleted");
+                node.next = null;
+            }
+            return node;
         }
     }
 }
