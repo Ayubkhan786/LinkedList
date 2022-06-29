@@ -91,13 +91,14 @@ namespace LinkedList
                 Node temp = head;
                 head = head.next;
                    temp = head.next;
-                head.next = temp;
-               
+                //head=temp.next; 
             }
-           
         }
-        
     }
-
 }
+
+           
+
+        
+
 
