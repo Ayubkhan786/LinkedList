@@ -119,6 +119,22 @@ namespace LinkedList
             }
             return node;
         }
+        public int Find(int val)
+        {
+
+            Node node = this.head;
+            int count = 0;
+            while (node != null)
+            {
+                if (node.data == val)
+                {
+                    return count;
+                }
+                node = node.next;
+                count++;
+            }
+            return count;
+        }
     }
 }
 
