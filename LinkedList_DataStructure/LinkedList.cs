@@ -165,9 +165,28 @@ namespace LinkedList
             return count;
 
         }
+        public void Sorting()
+        {
+            Node node;
+            Node newnode;
+            int temp;
+            for (node = this.head; node.next != null; node = node.next)
+            {
+                for (newnode = node.next; newnode != null; newnode = newnode.next)
+                {
+                    if (node.data > newnode.data)
+                    {
+                        temp = node.data;
+                        node.data = newnode.data;
+                        newnode.data = temp;
+                    }
+                }
+            }
 
+        }
     }
 }
+
 
            
 
