@@ -94,4 +94,10 @@ linklist6.Add(30);
 linklist6.Add(40);
 linklist6.Add(70);
 linklist6.DeleteBetween(40);
+linklist6.Size();
+Console.WriteLine("The Size of the List is : {0}", linklist6.Size());
 linklist6.Display();
+
+
+
+

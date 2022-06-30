@@ -153,6 +153,19 @@ namespace LinkedList
                 return;
             prev.next = temp.next;
         }
+        public int Size()
+        {
+            Node temp = head;
+            int count = 0;
+            while (temp != null)
+            {
+                temp = temp.next;
+                count++;
+            }
+            return count;
+
+        }
+
     }
 }
 
